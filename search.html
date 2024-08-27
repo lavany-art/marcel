@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logo" src="shopping-bag.png" width="70" alt="Logo" />
+            <h1>Product Showcase</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="kids.html">Kids</a></li>
+                <li><a href="electronics.html">Electronics</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="disclosure.html">Disclosure</a></li>
+            </ul>
+        </nav>
+        <form class="search-form" action="search.html" method="get">
+            <input type="text" name="query" id="search-input" placeholder="Search for products..." required>
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <section id="search-results">
+        <h2>Search Results for: <span id="search-query"></span></h2>
+        <div id="results-container">
+<!-- Search results will be displayed here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Product Showcase</p>
+        <p class="disclosure">Some links on this site are affiliate links. We may earn a commission if you make a purchase through them. This helps us maintain our site and continue offering valuable content.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
