@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return new Promise((resolve, reject) => {
             setTimeout(() => {
                 const allProducts = [
-                    { name: 'smartwatch', price: ' ratings 4.1 out of 5', image: 'product1.jpg' },
+                    { name: 'smartwatch', price: 'ratings 4.1 out of 5', image: 'product1.webp' },
                     { name: 'Leather Backpack', price: 'ratings 4.2 out of 5', image: 'product2.jpg' },
                     { name: 'Product 3', price: '$39.99', image: 'product3.jpg' },
                     { name: 'Product 1', price: '$19.99', image: 'product4.jpg' },
